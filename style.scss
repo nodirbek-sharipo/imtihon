@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$Blu: #458FF6;
+$white: #fff;
+$mini-text-color: #878787;
+$blac: #000000;
+
+$big-text-size:48px;
+$normal-text-size: 36px;
+$big-smol-size: 22px;
+$smol-text-size: 18px;
+
+$btn-width: 200px;
+$btn-hight: 60px;
+$btn-radius: 55px;
+
+// nav-sizes
+
+$nav-text-left: 40px;
+$virtual-width: 400px;
+
+$img-width:580px;
+$img-left:150px;
+$img-top:-90px;
+
+
+// our servis
+
+$card-width-heighgt: 300px;
+$card-radius: 20px;
+$card-img-width: 75px;
+$card-shadow: 10px 20px 75px rgb(202, 202, 202);
+$card-padding: 1.4rem;
+$card-ml: 3.5rem;
+$rem4: 4rem;
+
+// corusel
+
+$big-card-width: 1120px;
+
+
+
+.All{
+    .Hedr{
+        .navbar{
+            display: flex;
+            .nav-text{
+                display: flex;
+                .p1{
+                    margin-left: $nav-text-left;
+                    font-size: $smol-text-size;
+                }
+                .min-t{
+                    color: $mini-text-color;
+                }
+            }
+        }
+        img{
+            display: flex;
+        }
+        .hed-body{
+            display: flex;
+            .left{
+                width: $virtual-width;
+                .big-text{
+                    font-size: $big-text-size;
+                }
+                .min-text{
+                    font-size: $smol-text-size;
+                    color: $mini-text-color;
+                }
+                button{
+                    color: $white;
+                    background-color: $Blu;
+                    border: none;
+                    width: $btn-width;
+                    height: $btn-hight;
+                    border-radius: $btn-radius;
+                }
+            }
+            .right{
+                img{
+                    width: $img-width;
+                    margin-top: $img-top;
+                    margin-left: $img-left;
+                }
+            }
+        }
+    }
+    .Body{
+        .our-servis{
+            .text{
+                margin-top: $btn-width;
+                margin-bottom: 80px;
+                text-align: center;
+                .big-text1{
+                    font-size: $big-text-size;
+                }
+                .line{
+                    margin-left: 650px;
+                    border: 0.5px solid;
+                    width: 55px;
+                    height: 1px;
+                    margin-bottom: 1rem;
+                }
+                .smole-text1{
+                    font-size: $smol-text-size;
+                    color: $mini-text-color;
+                }
+            }
+            .cards1{
+                display: flex;
+                .card{
+                    border: none;
+                    padding: $card-padding;
+                    margin-left: $card-ml;
+                    margin-bottom: 2rem;
+                    width: $card-width-heighgt;
+                    height: $card-width-heighgt + 4px;
+                    border-radius: $card-radius;
+                    background-color: #fff;
+                    box-shadow: $card-shadow;
+                    img{
+                        width: $card-img-width;
+                    }
+                    .big-text2{font-size: $big-smol-size;}
+                    .small-text2{
+                        font-size: $smol-text-size;
+                        color: $mini-text-color;
+                    }
+                }   
+            }
+            .cards2{
+                display: flex;
+                .card{
+                    border: none;
+                    padding: $card-padding;
+                    margin-left: $card-ml;
+                    width: $card-width-heighgt;
+                    height: $card-width-heighgt + 4px;
+                    border-radius: $card-radius;
+                    background-color: #fff;
+                    box-shadow: $card-shadow;
+                    img{
+                        width: $card-img-width;
+                    }
+                    .big-text2{font-size: $big-smol-size;}
+                    .small-text2{
+                        font-size: $smol-text-size;
+                        color: $mini-text-color;
+                    }
+                }   
+            }
+            .button1{
+                margin-left: $img-width;
+                margin-top: $rem4;
+                margin-bottom: $rem4;
+                color: $Blu;
+                background-color: $white;
+                border: 1px solid $Blu;
+                width: $btn-width;
+                height: $btn-hight;
+                border-radius: $btn-radius;
+            }
+        }
+        .leading{
+            display: flex;
+            .left2{
+                img{
+                    width: $img-width;
+                }
+            }
+            .right2{
+                margin-top: $rem4;
+                margin-left: $rem4;
+                .norm-text{
+                    font-size: $normal-text-size;
+                    width: $virtual-width;
+                }
+                .line{
+                    // margin-left: 650px;
+                    border: 0.5px solid;
+                    width: 55px;
+                    height: 1px;
+                    margin-bottom: 1rem;
+                }
+                .smol-text{
+                    font-size: $smol-text-size;
+                    color: $mini-text-color;
+                    width: $virtual-width;
+                }
+                .button1{
+                    // margin-left: $img-width;
+                    // margin-top: 4rem;
+                    // margin-bottom: 4rem;
+                    color: $Blu;
+                    background-color: $white;
+                    border: 1px solid $Blu;
+                    width: $btn-width;
+                    height: $btn-hight;
+                    border-radius: $btn-radius;
+                }
+            }
+        }
+        .downloand{
+            margin-top: $rem4 * 3;
+            display: flex;
+            .left3{
+                .norm-text{
+                    font-size: $normal-text-size;
+                    width: $virtual-width;
+                }
+                .line{
+                    border: 0.5px solid;
+                    width: 55px;
+                    height: 1px;
+                    margin-bottom: 1rem;
+                }
+                .smol-text{
+                    font-size: $smol-text-size;
+                    color: $mini-text-color;
+                    width: $virtual-width;
+                }
+                .button1{
+                    // margin-left: $img-width;
+                    // margin-top: 4rem;
+                    // margin-bottom: 4rem;
+                    color: $Blu;
+                    background-color: $white;
+                    border: 1px solid $Blu;
+                    width: $btn-width;
+                    height: $btn-hight;
+                    border-radius: $btn-radius;
+                }
+            }
+            .right3{
+                img{
+                    width: $img-width;
+                    margin-left: $rem4;
+                }
+            } 
+        }
+        .corusel{
+            .big-card{
+                width: $big-card-width;
+                height: $virtual-width + 20px;
+                background-color: $Blu; 
+                border-radius: $big-smol-size;
+                margin-top: $rem4 * 3;
+                .big-text{
+                    .big-text3{
+                        padding: 1rem;
+                        color: $white;
+                        font-size: $normal-text-size;
+                        text-align: center;
+                        margin-top: 5rem;
+                    }
+                    .line{
+                        margin-left: 550px;
+                        border: 0.5px solid $white;
+                        width: 55px;
+                        height: 1px;
+                        margin-bottom: 1rem;
+                    }
+                }
+                .doun{
+                    display: flex;
+                    margin-top: $rem4 + 2rem;
+                    .avatar{
+                        display: flex;
+                        img{
+                            padding: 0px 3rem 0 6rem;
+                        }
+                        .avatar-text{
+                            .big-smol{
+                                font-size: $big-smol-size;
+                                color: $white;
+                            }
+                            .smol{
+                                font-size: $smol-text-size;
+                                color: white;
+                                padding: 0 15rem 0 0;
+                            }
+                        }
+                    }
+                    .mini-text{
+                        p{
+                            // font-size: $smol-text-size;
+                            width: 350px;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+        .chek-out{
+            .firth-text{
+                text-align: center;
+                padding: 4rem 0 0 0;
+                font-size: $normal-text-size;
+            }
+            .line{
+                margin-left: 650px;
+                border: 0.5px solid;
+                width: 55px;
+                height: 1px;
+                margin-bottom: 1rem;
+            }
+            .cards{
+                display: flex;
+                .chek-card{
+                    width: $card-width-heighgt + 50px;
+                    margin-left: 1rem;
+                    border-radius: 18px;
+                    box-shadow: $card-shadow;
+                    .big-smol-text{
+                        font-size: $big-smol-size;
+                        padding: 0 1rem 0 1rem;
+                    }
+                    .smol-text{
+                        padding: 0 1rem 0 1rem;
+                        font-size: $smol-text-size;
+                        color: $mini-text-color;
+                    }
+                    .link{
+                        padding: 0 1rem 0 1rem;
+                        color: $Blu;
+                    }
+                }
+            }
+            button{
+                margin: 3rem 0 0 570px;
+                // margin-left: 570px;
+                color: $Blu;
+                background-color: $white;
+                border: 1px solid $Blu;
+                width: $btn-width;
+                height: $btn-hight;
+                border-radius: $btn-radius;
+            }
+        }
+    }
+    .footr{
+        // display: flex;
+        background-color: $Blu;
+        width: 100%;
+        height: $virtual-width - 135px;
+        .padding{
+            display: flex;
+            p{
+                font-size: $smol-text-size;
+                color: $white;
+                padding: 0;
+            }
+            .pator-1{
+                .larg-text{
+                    width: 280px;
+                }
+            }
+            .left5{
+                margin-left: 5rem;
+            }
+        }
+    }
+}

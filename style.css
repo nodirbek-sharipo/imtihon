@@ -1,0 +1,297 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.All .Hedr .navbar {
+  display: flex;
+}
+.All .Hedr .navbar .nav-text {
+  display: flex;
+}
+.All .Hedr .navbar .nav-text .p1 {
+  margin-left: 40px;
+  font-size: 18px;
+}
+.All .Hedr .navbar .nav-text .min-t {
+  color: #878787;
+}
+.All .Hedr img {
+  display: flex;
+}
+.All .Hedr .hed-body {
+  display: flex;
+}
+.All .Hedr .hed-body .left {
+  width: 400px;
+}
+.All .Hedr .hed-body .left .big-text {
+  font-size: 48px;
+}
+.All .Hedr .hed-body .left .min-text {
+  font-size: 18px;
+  color: #878787;
+}
+.All .Hedr .hed-body .left button {
+  color: #fff;
+  background-color: #458FF6;
+  border: none;
+  width: 200px;
+  height: 60px;
+  border-radius: 55px;
+}
+.All .Hedr .hed-body .right img {
+  width: 580px;
+  margin-top: -90px;
+  margin-left: 150px;
+}
+.All .Body .our-servis .text {
+  margin-top: 200px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.All .Body .our-servis .text .big-text1 {
+  font-size: 48px;
+}
+.All .Body .our-servis .text .line {
+  margin-left: 650px;
+  border: 0.5px solid;
+  width: 55px;
+  height: 1px;
+  margin-bottom: 1rem;
+}
+.All .Body .our-servis .text .smole-text1 {
+  font-size: 18px;
+  color: #878787;
+}
+.All .Body .our-servis .cards1 {
+  display: flex;
+}
+.All .Body .our-servis .cards1 .card {
+  border: none;
+  padding: 1.4rem;
+  margin-left: 3.5rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  height: 304px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 10px 20px 75px rgb(202, 202, 202);
+}
+.All .Body .our-servis .cards1 .card img {
+  width: 75px;
+}
+.All .Body .our-servis .cards1 .card .big-text2 {
+  font-size: 22px;
+}
+.All .Body .our-servis .cards1 .card .small-text2 {
+  font-size: 18px;
+  color: #878787;
+}
+.All .Body .our-servis .cards2 {
+  display: flex;
+}
+.All .Body .our-servis .cards2 .card {
+  border: none;
+  padding: 1.4rem;
+  margin-left: 3.5rem;
+  width: 300px;
+  height: 304px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 10px 20px 75px rgb(202, 202, 202);
+}
+.All .Body .our-servis .cards2 .card img {
+  width: 75px;
+}
+.All .Body .our-servis .cards2 .card .big-text2 {
+  font-size: 22px;
+}
+.All .Body .our-servis .cards2 .card .small-text2 {
+  font-size: 18px;
+  color: #878787;
+}
+.All .Body .our-servis .button1 {
+  margin-left: 580px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  color: #458FF6;
+  background-color: #fff;
+  border: 1px solid #458FF6;
+  width: 200px;
+  height: 60px;
+  border-radius: 55px;
+}
+.All .Body .leading {
+  display: flex;
+}
+.All .Body .leading .left2 img {
+  width: 580px;
+}
+.All .Body .leading .right2 {
+  margin-top: 4rem;
+  margin-left: 4rem;
+}
+.All .Body .leading .right2 .norm-text {
+  font-size: 36px;
+  width: 400px;
+}
+.All .Body .leading .right2 .line {
+  border: 0.5px solid;
+  width: 55px;
+  height: 1px;
+  margin-bottom: 1rem;
+}
+.All .Body .leading .right2 .smol-text {
+  font-size: 18px;
+  color: #878787;
+  width: 400px;
+}
+.All .Body .leading .right2 .button1 {
+  color: #458FF6;
+  background-color: #fff;
+  border: 1px solid #458FF6;
+  width: 200px;
+  height: 60px;
+  border-radius: 55px;
+}
+.All .Body .downloand {
+  margin-top: 12rem;
+  display: flex;
+}
+.All .Body .downloand .left3 .norm-text {
+  font-size: 36px;
+  width: 400px;
+}
+.All .Body .downloand .left3 .line {
+  border: 0.5px solid;
+  width: 55px;
+  height: 1px;
+  margin-bottom: 1rem;
+}
+.All .Body .downloand .left3 .smol-text {
+  font-size: 18px;
+  color: #878787;
+  width: 400px;
+}
+.All .Body .downloand .left3 .button1 {
+  color: #458FF6;
+  background-color: #fff;
+  border: 1px solid #458FF6;
+  width: 200px;
+  height: 60px;
+  border-radius: 55px;
+}
+.All .Body .downloand .right3 img {
+  width: 580px;
+  margin-left: 4rem;
+}
+.All .Body .corusel .big-card {
+  width: 1120px;
+  height: 420px;
+  background-color: #458FF6;
+  border-radius: 22px;
+  margin-top: 12rem;
+}
+.All .Body .corusel .big-card .big-text .big-text3 {
+  padding: 1rem;
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 5rem;
+}
+.All .Body .corusel .big-card .big-text .line {
+  margin-left: 550px;
+  border: 0.5px solid #fff;
+  width: 55px;
+  height: 1px;
+  margin-bottom: 1rem;
+}
+.All .Body .corusel .big-card .doun {
+  display: flex;
+  margin-top: 6rem;
+}
+.All .Body .corusel .big-card .doun .avatar {
+  display: flex;
+}
+.All .Body .corusel .big-card .doun .avatar img {
+  padding: 0px 3rem 0 6rem;
+}
+.All .Body .corusel .big-card .doun .avatar .avatar-text .big-smol {
+  font-size: 22px;
+  color: #fff;
+}
+.All .Body .corusel .big-card .doun .avatar .avatar-text .smol {
+  font-size: 18px;
+  color: white;
+  padding: 0 15rem 0 0;
+}
+.All .Body .corusel .big-card .doun .mini-text p {
+  width: 350px;
+  color: #fff;
+}
+.All .Body .chek-out .firth-text {
+  text-align: center;
+  padding: 4rem 0 0 0;
+  font-size: 36px;
+}
+.All .Body .chek-out .line {
+  margin-left: 650px;
+  border: 0.5px solid;
+  width: 55px;
+  height: 1px;
+  margin-bottom: 1rem;
+}
+.All .Body .chek-out .cards {
+  display: flex;
+}
+.All .Body .chek-out .cards .chek-card {
+  width: 350px;
+  margin-left: 1rem;
+  border-radius: 18px;
+  box-shadow: 10px 20px 75px rgb(202, 202, 202);
+}
+.All .Body .chek-out .cards .chek-card .big-smol-text {
+  font-size: 22px;
+  padding: 0 1rem 0 1rem;
+}
+.All .Body .chek-out .cards .chek-card .smol-text {
+  padding: 0 1rem 0 1rem;
+  font-size: 18px;
+  color: #878787;
+}
+.All .Body .chek-out .cards .chek-card .link {
+  padding: 0 1rem 0 1rem;
+  color: #458FF6;
+}
+.All .Body .chek-out button {
+  margin: 3rem 0 0 570px;
+  color: #458FF6;
+  background-color: #fff;
+  border: 1px solid #458FF6;
+  width: 200px;
+  height: 60px;
+  border-radius: 55px;
+}
+.All .footr {
+  background-color: #458FF6;
+  width: 100%;
+  height: 265px;
+}
+.All .footr .padding {
+  display: flex;
+}
+.All .footr .padding p {
+  font-size: 18px;
+  color: #fff;
+  padding: 0;
+}
+.All .footr .padding .pator-1 .larg-text {
+  width: 280px;
+}
+.All .footr .padding .left5 {
+  margin-left: 5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
